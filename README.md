@@ -1,4 +1,4 @@
-# opencv_facerecognition
+# Easy OpenCV Face Recognition
 Uses OpenCV facerecognition and training, to train 
 
 1. Create folder images
