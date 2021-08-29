@@ -1,6 +1,5 @@
 # Easy OpenCV Face Recognition
-Uses OpenCV facerecognition and training, to train 
-
+Uses OpenCV facerecognition to train and predict.
 
 2. Create folders images/person1, images/person2, etc. with training images
 3. (optional) create images from webcam of faces, by running create_training_data.py
@@ -10,6 +9,12 @@ Uses OpenCV facerecognition and training, to train
 
 Based on:
 https://www.youtube.com/watch?v=PmZ29Vta7Vc
+
+### Optional - Use face_recognition module for realtime prediction
+Slower but much better performance
+1. Correct picture location and labels in script face_recognition_package_stream.py
+2. Run script for realtime webcam streaming with recognition 
+
 
 ## TODO
 - Test different settings for training
